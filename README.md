@@ -1,7 +1,7 @@
 <h1 align="center">Awesome Portfolio</h1>
 
 <p align="center">
-  <a href="#关于">关于</a> &#xa0; | &#xa0;
+  <a href="#Getting Started">关于</a> &#xa0; | &#xa0;
   <a href="#功能">功能</a> &#xa0; | &#xa0;
   <a href="#技术栈">技术栈</a> &#xa0; | &#xa0;
   <a href="#环境">环境</a> &#xa0; | &#xa0;
