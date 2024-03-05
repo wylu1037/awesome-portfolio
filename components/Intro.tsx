@@ -10,7 +10,10 @@ import { HiDownload } from "react-icons/hi";
 
 export default function Intro() {
   return (
-    <section className="mb-28 max-w-[50rem] text-center sm:mb-0">
+    <section
+      id="home"
+      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+    >
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
@@ -61,7 +64,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
-            delay:0.1,
+          delay: 0.1,
         }}
         className="flex justify-center items-center gap-2 px-4 text-lg font-medium"
       >
@@ -74,20 +77,24 @@ export default function Intro() {
         </Link>
 
         <a
-          href="/CV.pdf" download={true}
+          href="/CV.pdf"
+          download={true}
           className="flex group items-center gap-2 bg-white font-medium px-7 py-3 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10"
         >
-          Download CV <HiDownload className="opacity-70 group-hover:translate-y-1 transition" />
+          Download CV{" "}
+          <HiDownload className="opacity-70 group-hover:translate-y-1 transition" />
         </a>
 
         <a
-          href="https://twitter.com/wylu1037" target="_blank"
+          href="https://twitter.com/wylu1037"
+          target="_blank"
           className="flex items-center gap-2 rounded-full bg-white p-4 text-gray-700 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10"
         >
           <BsTwitterX />
         </a>
         <a
-          href="https://github.com/wylu1037" target="_blank"
+          href="https://github.com/wylu1037"
+          target="_blank"
           className="flex items-center gap-2 rounded-full bg-white p-4 text-gray-700 focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10"
         >
           <FaGithub />
