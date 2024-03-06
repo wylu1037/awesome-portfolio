@@ -3,10 +3,7 @@ import { SectionName } from "./types";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import { useEffect } from "react";
 
-export default function useSectionInView(
-  sectionName: SectionName,
-  threshold = 0.75
-) {
+export default function useSectionInView(sectionName: SectionName, threshold: number = 0.75) {
   const { ref, inView } = useInView({ threshold });
 
   const { setActiveSection, timeOfLastClick } = useActiveSectionContext();

@@ -4,16 +4,14 @@ import React, { useEffect, useRef } from "react";
 import SectionHeading from "./ui/SectionHeading";
 import { projectsData } from "@/lib/data";
 import Project from "./Project";
-import { useInView } from "react-intersection-observer";
-import { useActiveSectionContext } from "@/context/active-section-context";
 import useSectionInView from "@/lib/hooks";
 
 export default function Projects() {
   // set animation
-  const { ref } = useSectionInView("Projects", 0.5)
+  const { ref } = useSectionInView("Projects", 0.5);
 
   return (
-    <section id="projects" ref={ref} className="scroll-mt-28">
+    <section id="projects" ref={ref} className="scroll-mt-28 mb-28">
       <SectionHeading>My Projects</SectionHeading>
 
       <div>
