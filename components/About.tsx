@@ -3,11 +3,15 @@
 import React from "react";
 import SectionHeading from "./SectionHeading";
 import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 export default function About() {
+  const {ref, inView} = useInView();
+
   return (
     <motion.section
       id="about"
+      ref = {ref}
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
