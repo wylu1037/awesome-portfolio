@@ -8,8 +8,10 @@
   <a href="#开始">开始</a> &#xa0; | &#xa0;
   <a href="https://github.com/wylu1037" target="_blank">作者</a>
 </p>
-
 <br>
+<img src="./public/index.png"/>
+<br>
+
 
 
 ## Getting Started
