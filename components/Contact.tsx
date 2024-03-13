@@ -30,10 +30,12 @@ export default function Contact() {
       <form action="" className="flex flex-col mt-10">
         <input
           type="email"
+          name="email"
           placeholder="Your email"
           className="h-14 px-4 rounded-lg border border-black/10"
         />
         <textarea
+          name="message"
           className="h-52 my-3 rounded-lg border border-black/10 p-4"
           placeholder="Your message"
         />
