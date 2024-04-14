@@ -5,6 +5,7 @@ import React from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ActiveSectionContextProvider from "@/context/active-section-context";
+import ToggleTheme from "@/components/ToggleTheme";
 
 const inter = Inter({ subsets: ["latin"] });
 
