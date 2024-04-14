@@ -6,6 +6,7 @@ import Header from "@/components/Header";
 import Intro from "@/components/Intro";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
+import ToggleTheme from "@/components/ToggleTheme";
 import SectionDivider from "@/components/ui/SectionDivider";
 import ActiveSectionContextProvider, {
   ActiveSectionContext,
@@ -29,6 +30,7 @@ export default function Home() {
         </div>
         <Footer />
       </ActiveSectionContextProvider>
+      <ToggleTheme />
     </section>
   );
 }
