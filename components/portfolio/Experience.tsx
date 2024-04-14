@@ -2,7 +2,7 @@
 
 import { experiencesData } from "@/lib/data";
 import React from "react";
-import SectionHeading from "./ui/SectionHeading";
+import SectionHeading from "./SectionHeading";
 import {
   VerticalTimeline,
   VerticalTimelineElement,

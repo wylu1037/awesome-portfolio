@@ -12,7 +12,7 @@ import ActiveSectionContextProvider, {
   ActiveSectionContext,
 } from "@/context/active-section-context";
 
-export default function Home() {
+export default function Portfolio() {
   return (
     <section className="relative z-0 bg-gray-50 text-green-950 pt-28 sm:pt-36">
       <div className="absolute -z-10 top-[-6rem] right-[11rem] bg-[#fbe2e3] h-[31.25rem] w-[31.25rem] rounded-full blur-[11rem] sm:w-[68.75rem]"></div>

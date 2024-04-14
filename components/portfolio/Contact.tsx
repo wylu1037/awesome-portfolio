@@ -4,7 +4,7 @@ import useSectionInView from "@/lib/hooks";
 import { motion } from "framer-motion";
 import React from "react";
 import { FaPaperPlane } from "react-icons/fa6";
-import SectionHeading from "./ui/SectionHeading";
+import SectionHeading from "./SectionHeading";
 
 export default function Contact() {
   const { ref } = useSectionInView("Contact");

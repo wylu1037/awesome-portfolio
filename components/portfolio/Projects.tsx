@@ -1,10 +1,10 @@
 "use client";
 
 import React, { useEffect, useRef } from "react";
-import SectionHeading from "./ui/SectionHeading";
 import { projectsData } from "@/lib/data";
 import Project from "./Project";
 import useSectionInView from "@/lib/hooks";
+import SectionHeading from "./SectionHeading";
 
 export default function Projects() {
   // set animation
