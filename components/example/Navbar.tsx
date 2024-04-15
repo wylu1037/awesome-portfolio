@@ -61,7 +61,7 @@ export default function Navbar() {
                 </Link>
               </li>
             </ul>
-            <button className="hidden h-10 bg-primary text-white text-sm px-6 rounded hover:bg-blue-200 hover:text-primary md:block">
+            <button className="hidden h-10 bg-[#3368c0] text-white text-sm px-6 rounded hover:bg-blue-200 hover:text-[#3368c0] md:block">
               Contact Us
             </button>
 
@@ -69,7 +69,7 @@ export default function Navbar() {
               onClick={() => {
                 setIsMenuOpen(true);
               }}
-              className="w-11 h-11 bg-blue-100 text-2xl text-primary flex justify-center items-center rounded md:hidden z-50"
+              className="w-11 h-11 bg-blue-100 text-2xl text-[#3368c0] flex justify-center items-center rounded md:hidden z-50"
             >
               {isMenuOpen ? <RiCloseLine /> : <RiMenu4Line />}
             </button>

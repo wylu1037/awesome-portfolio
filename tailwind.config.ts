@@ -19,6 +19,7 @@ const config = {
     },
     extend: {
       colors: {
+        // example
         darkBlue: "#1b4282",
         lightBlue: "#bdd6ff",
         dimBlue: "#f7faff",
